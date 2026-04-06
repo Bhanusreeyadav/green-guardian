@@ -1,11 +1,11 @@
 # Green Guardian
 
-Green Guardian is an environmental monitoring project designed to promote sustainable living and environmental protection.
+Green Guardian is an environmental monitoring web application designed to promote sustainable living and environmental protection.
 
 ## Features
 - Monitor environmental conditions
-- Promote eco-friendly awareness
-- Provide environmental alerts
+- Provide environmental awareness
+- Show eco-friendly tips
 
 ## Technologies Used
 - HTML
