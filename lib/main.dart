@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'screens/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,24 +16,7 @@ class GreenGuardianApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: HomePage(),
-    );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Green Guardian"),
-      ),
-      body: Center(
-        child: Text(
-          "Welcome to Green Guardian 🌱",
-          style: TextStyle(fontSize: 24),
-        ),
-      ),
+      home: HomeScreen(),
     );
   }
 }
