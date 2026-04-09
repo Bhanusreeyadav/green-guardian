@@ -1,13 +1,19 @@
 # Green Guardian
 
-Green Guardian is an environmental monitoring web application designed to promote sustainable living and environmental protection.
-
-## Features
-- Monitor environmental conditions
-- Provide environmental awareness
-- Show eco-friendly tips
+Green Guardian is a Flutter Web application that promotes environmental awareness.
 
 ## Technologies Used
-- HTML
-- CSS
-- JavaScript
+
+Frontend: Flutter Web
+Programming Language: Dart
+UI Framework: Material Design
+Backend: Firebase
+Database: Cloud Firestore
+Hosting: Firebase Hosting
+
+## Features
+
+* Environmental awareness platform
+* Eco tips display
+* Firebase Firestore integration
+* Responsive Flutter UI
